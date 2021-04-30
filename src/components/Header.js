@@ -11,13 +11,13 @@ const Header = () => {
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
       <LinkContainer to='/'>
-      <Nav.Link style={{ color: 'white' }}>Home</Nav.Link>
+      <Nav.Link>Home</Nav.Link>
       </LinkContainer>
       <LinkContainer to='/notes'>
-      <Nav.Link style={{ color: 'white' }}>Notes</Nav.Link>
+      <Nav.Link>Notes</Nav.Link>
       </LinkContainer>
       <LinkContainer to='/create'>
-      <Nav.Link style={{ color: 'white' }}>Create</Nav.Link>
+      <Nav.Link>Create</Nav.Link>
       </LinkContainer>
      
      
